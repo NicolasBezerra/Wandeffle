@@ -1,19 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEngine.UI;
 
 public class ArrowSpawnBehaviour : MonoBehaviour {
 
 	public GameObject [] Arrows;
 	GameObject thisArrow;
 	int random, score;
-	public Text pontos;
 	bool isInstantiated;
 	public GameObject positionSpawne;
 	public float velocity;
 	// Use this for initialization
 	void Start () {
-		score = 0;
 		velocity = 10;
 	}
 
@@ -27,7 +24,6 @@ public class ArrowSpawnBehaviour : MonoBehaviour {
 			if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) { 
 				DestroyImmediate (GameObject.FindGameObjectWithTag ("up"));
 				isInstantiated = false;
-				scoreAdd();
 			}
 		}
 
@@ -36,7 +32,6 @@ public class ArrowSpawnBehaviour : MonoBehaviour {
 			if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)) {
 				DestroyImmediate(GameObject.FindGameObjectWithTag ("left"));
 				isInstantiated = false;
-				scoreAdd();
 			}
 		}
 
@@ -45,7 +40,6 @@ public class ArrowSpawnBehaviour : MonoBehaviour {
 			if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)) {
 				DestroyImmediate(GameObject.FindGameObjectWithTag ("down"));
 				isInstantiated = false;
-				scoreAdd();
 			}
 		}
 		
@@ -54,14 +48,8 @@ public class ArrowSpawnBehaviour : MonoBehaviour {
 			if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow)) {
 				DestroyImmediate(GameObject.FindGameObjectWithTag ("right"));
 				isInstantiated = false;
-				scoreAdd();
 			}
 		}
-	}
-
-	void scoreAdd(){
-		score++;
-		pontos.text = "Score: " + score.ToString();
 	}
 
 	void instantiate()
