@@ -1,0 +1,191 @@
+fileFormatVersion: 2
+guid: 36f7b54e76eaff646b0ab59bb10b249f
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Wandeffel [concept] clone_0
+    21300002: Wandeffel [concept] clone_1
+    21300004: Wandeffel [concept] clone_2
+    21300006: Wandeffel [concept] clone_3
+    21300008: Wandeffel [concept] clone_4
+    21300010: Wandeffel [concept] clone_5
+    21300012: Wandeffel [concept] clone_6
+    21300014: Wandeffel [concept] clone_7
+    21300016: Wandeffel [concept] clone_8
+    21300018: Wandeffel [concept] clone_9
+    21300020: Wandeffel [concept] clone_10
+    21300022: Wandeffel [concept] clone_11
+    21300024: PlayerDancing_0
+    21300026: PlayerDancing_1
+    21300028: PlayerDancing_2
+    21300030: PlayerDancing_3
+    21300032: PlayerDancing_4
+    21300034: PlayerDancing_5
+    21300036: PlayerDancing_6
+    21300038: PlayerDancing_7
+    21300040: PlayerDancing_8
+    21300042: PlayerDancing_9
+    21300044: PlayerDancing_10
+    21300046: PlayerDancing_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 8
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PlayerDancing_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 5
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerDancing_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 5
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerDancing_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 5
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerDancing_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 5
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerDancing_4
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 5
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerDancing_5
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 5
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerDancing_6
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 4
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerDancing_7
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 4
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerDancing_8
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 4
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerDancing_9
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 4
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerDancing_10
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 4
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerDancing_11
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 4
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

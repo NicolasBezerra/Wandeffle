@@ -3,36 +3,64 @@ using System.Collections;
 
 public class ArrowLettersControl : MonoBehaviour {
 
-	public GameObject[] arrows,letters;
-	private GameObject thisArrow;
-	private GameObject thisLetters;
-	private int randomA, randomL;
+	public GameObject[] arrows;
+	private GameObject thisArrow, instantiate;
+	private int random, time;
 	private bool isInstantiated;
-	private float velocityArrows;
-	private float velocityLetters;
-	private GameObject instantiateA,instantiateL;
-	private int time;
+	private float velocity;
 
 	// Use this for initialization
 	void Start () {
 
+		velocity = 10.0f;
 		isInstantiated = false;
 		time = 100;
-
+		StartCoroutine(Instantiate());
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		SearchObject ();
+		Clicks ();
+	}
 
+	void Clicks(){
+
+		if (GameObject.FindGameObjectWithTag ("up")) {
+			
+			if (Input.GetKeyDown(KeyCode.UpArrow)) { 
+				DestroyImmediate (GameObject.FindGameObjectWithTag ("up"));
+			}
+		}
+		
+		if (GameObject.FindGameObjectWithTag ("left")) {
+			
+			if (Input.GetKeyDown(KeyCode.LeftArrow)) {
+				DestroyImmediate(GameObject.FindGameObjectWithTag ("left"));
+			}
+		}
+		
+		if (GameObject.FindGameObjectWithTag ("down")) {
+			
+			if (Input.GetKeyDown(KeyCode.DownArrow)) {
+				DestroyImmediate(GameObject.FindGameObjectWithTag ("down"));
+			}
+		}
+		
+		if (GameObject.FindGameObjectWithTag ("right")) {
+			
+			if (Input.GetKeyDown(KeyCode.RightArrow)) {
+				DestroyImmediate(GameObject.FindGameObjectWithTag ("right"));
+			}
+		}
 	}
 
 	void SearchObject(){
 
 		// SearchArrows
-		randomA = Random.Range (0, 4);
+		random = Random.Range (0, 4);
 		
-		switch (randomA) {
+		switch (random) {
 		case 0:
 			thisArrow = arrows [0];
 			break;
@@ -51,37 +79,19 @@ public class ArrowLettersControl : MonoBehaviour {
 			
 		}
 
-		// SearchLetters
-		randomL = Random.Range (0, 4);
-		
-		switch (randomL) {
-		case 0:
-			thisLetters = letters [0];
-			break;
-			
-		case 1:
-			thisLetters = letters [1];
-			break;
-			
-		case 2:
-			thisLetters = letters [2];
-			break;
-			
-		case 3:
-			thisLetters = letters [3];
-			break;
-			
-		}
-
 	}
 
-	void Instantiete(){
 
-		if (!isInstantiated) {
-				for (int x = 0; x < time; x++) {
-					instantiateA = Instantiate (thisArrow, transform.position, transform.rotation) as GameObject;
-					isInstantiated = true;
-				}
-			}
-		}
+
+	IEnumerator Instantiate() 
+	{
+		yield return new WaitForSeconds (1);
+		instantiate = Instantiate (thisArrow, transform.position, transform.rotation) as GameObject;
+		instantiate.transform.position -= new Vector3 (velocity * Time.deltaTime, 0, 0);
+		isInstantiated = true;
+		StartCoroutine(Instantiate());
 	}
+
+
+
+}
