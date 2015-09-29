@@ -26,28 +26,28 @@ public class LettersControl : MonoBehaviour {
 	
 	void Clicks()
 	{
-		if (GameObject.FindGameObjectWithTag ("W")) {
+		if (GameObject.Find ("W")) {
 			
 			if (Input.GetKeyDown(KeyCode.W)) { 	
 				DestroyImmediate (GameObject.FindGameObjectWithTag ("W"));
 			}
 		}
 		
-		if (GameObject.FindGameObjectWithTag ("A")) {
+		if (GameObject.Find ("A")) {
 			
 			if (Input.GetKeyDown(KeyCode.A)) {
 				DestroyImmediate(GameObject.FindGameObjectWithTag ("A"));
 			}
 		}
 		
-		if (GameObject.FindGameObjectWithTag ("S")) {
+		if (GameObject.Find ("S")) {
 
 			if (Input.GetKeyDown(KeyCode.S)) {
 				DestroyImmediate(GameObject.FindGameObjectWithTag ("S"));
 			}
 		}
 		
-		if (GameObject.FindGameObjectWithTag ("D")) {
+		if (GameObject.Find ("D")) {
 			
 			if (Input.GetKeyDown(KeyCode.D)) {
 				DestroyImmediate(GameObject.FindGameObjectWithTag ("D"));

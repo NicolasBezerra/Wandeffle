@@ -48,11 +48,12 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\ArrowLettersControl.cs" />
      <Compile Include="Assets\Scripts\ArrowSpawnBehaviour.cs" />
+     <Compile Include="Assets\Scripts\EnconterPoint.cs" />
      <Compile Include="Assets\Scripts\LettersControl.cs" />
      <Compile Include="Assets\Scripts\PlayerControll.cs" />
      <Compile Include="Assets\Scripts\sobepassarinho.cs" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/Nicolas.Bezerra/Desktop/Wandeffle/Wandeffle 0.2/Wandeffle/Assets/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/Matheus.Oliveira/Desktop/Wandeffle/Wandeffle 0.2/Wandeffle/Assets/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>

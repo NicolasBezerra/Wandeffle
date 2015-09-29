@@ -19,34 +19,34 @@ public class ArrowSpawnBehaviour : MonoBehaviour {
 
 		instantiate();
 		 
-		if (GameObject.FindGameObjectWithTag ("up")) {
+		if (GameObject.Find ("up")) {
 			
 			if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) { 
-				DestroyImmediate (GameObject.FindGameObjectWithTag ("up"));
+				DestroyImmediate (GameObject.Find ("up"));
 				isInstantiated = false;
 			}
 		}
 
-		if (GameObject.FindGameObjectWithTag ("left")) {
+		if (GameObject.Find ("left")) {
 			
 			if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)) {
-				DestroyImmediate(GameObject.FindGameObjectWithTag ("left"));
+				DestroyImmediate(GameObject.Find ("left"));
 				isInstantiated = false;
 			}
 		}
 
-		if (GameObject.FindGameObjectWithTag ("down")) {
+		if (GameObject.Find ("down")) {
 			
 			if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)) {
-				DestroyImmediate(GameObject.FindGameObjectWithTag ("down"));
+				DestroyImmediate(GameObject.Find ("down"));
 				isInstantiated = false;
 			}
 		}
 		
-		if (GameObject.FindGameObjectWithTag ("right")) {
+		if (GameObject.Find ("right")) {
 			
 			if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow)) {
-				DestroyImmediate(GameObject.FindGameObjectWithTag ("right"));
+				DestroyImmediate(GameObject.Find ("right"));
 				isInstantiated = false;
 			}
 		}

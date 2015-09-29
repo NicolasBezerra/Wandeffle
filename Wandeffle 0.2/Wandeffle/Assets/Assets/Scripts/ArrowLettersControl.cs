@@ -26,28 +26,28 @@ public class ArrowLettersControl : MonoBehaviour {
 
 	void Clicks(){
 
-		if (GameObject.FindGameObjectWithTag ("up")) {
+		if (GameObject.Find ("up")) {
 			
 			if (Input.GetKeyDown(KeyCode.UpArrow)) { 
 				DestroyImmediate (GameObject.FindGameObjectWithTag ("up"));
 			}
 		}
 		
-		if (GameObject.FindGameObjectWithTag ("left")) {
+		if (GameObject.Find ("left")) {
 			
 			if (Input.GetKeyDown(KeyCode.LeftArrow)) {
 				DestroyImmediate(GameObject.FindGameObjectWithTag ("left"));
 			}
 		}
 		
-		if (GameObject.FindGameObjectWithTag ("down")) {
+		if (GameObject.Find ("down")) {
 			
 			if (Input.GetKeyDown(KeyCode.DownArrow)) {
 				DestroyImmediate(GameObject.FindGameObjectWithTag ("down"));
 			}
 		}
 		
-		if (GameObject.FindGameObjectWithTag ("right")) {
+		if (GameObject.Find ("right")) {
 			
 			if (Input.GetKeyDown(KeyCode.RightArrow)) {
 				DestroyImmediate(GameObject.FindGameObjectWithTag ("right"));

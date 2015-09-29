@@ -9,7 +9,7 @@ public class sobepassarinho : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		velocity0 = 8f;
+		velocity0 = 4f;
 		velocity1 = 4f;
 		end =  GameObject.Find("End");
 	}

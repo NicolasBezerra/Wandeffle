@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\ArrowLettersControl.cs" />
      <Compile Include="Assets\Scripts\ArrowSpawnBehaviour.cs" />
+     <Compile Include="Assets\Scripts\EnconterPoint.cs" />
      <Compile Include="Assets\Scripts\LettersControl.cs" />
      <Compile Include="Assets\Scripts\PlayerControll.cs" />
      <Compile Include="Assets\Scripts\sobepassarinho.cs" />
