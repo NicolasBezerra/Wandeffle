@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{DC082276-0AE3-31D7-AD9D-F2AC182A0A71}") = "Wandeffle", "Assembly-CSharp.csproj", "{4E266A45-60C3-B31A-B542-E33E3199E24F}"
 EndProject
+Project("{DC082276-0AE3-31D7-AD9D-F2AC182A0A71}") = "Wandeffle", "Assembly-UnityScript-firstpass.unityproj", "{741916F1-9998-15DA-A81D-6AAE765E8A12}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,11 +15,15 @@ Global
 		{4E266A45-60C3-B31A-B542-E33E3199E24F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E266A45-60C3-B31A-B542-E33E3199E24F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E266A45-60C3-B31A-B542-E33E3199E24F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{741916F1-9998-15DA-A81D-6AAE765E8A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{741916F1-9998-15DA-A81D-6AAE765E8A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{741916F1-9998-15DA-A81D-6AAE765E8A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{741916F1-9998-15DA-A81D-6AAE765E8A12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-								GlobalSection(MonoDevelopProperties) = preSolution
+																												GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

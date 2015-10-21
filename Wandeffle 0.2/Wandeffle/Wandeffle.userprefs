@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ArrowSpawnBehaviour.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\BackGroundColor.cs">
     <Files>
-      <File FileName="Assets\Scripts\PlayerControll.cs" Line="16" Column="18" />
-      <File FileName="Assets\Scripts\ArrowSpawnBehaviour.cs" Line="78" Column="11" />
+      <File FileName="Assets\Scripts\PlayerControll.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\BackGroundColor.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
